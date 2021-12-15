@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <meta charset="utf-8" />
+        <title>MUESTRA DATOS</title>
+        <meta name="DATOS REGISTRADOS" content="DATOS DE REGISTRO">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="css/favicon.png" >
+        <script src=js/funcionesgrupo10.js></script>
+    </head>
+
+     
+  <body onload="mostrarDatos()" class="content"> 
+    
+    <header>
+      <img src="css/banner.jpg" id="banner" class=logo />
+     </header>
+
+      <nav>
+        <ol>
+        <li><a href="index.html">Inicio</a></li> 
+        <li><a href="nativas.html">Plantas Nativas </a></li> 
+        <li><a href="como_cuidarlas.html">Cuidados </a></li>
+        <li><a href="contacto.html">Contacto </a></li>
+        <li><a href="registro.html">Registrarse</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ol>
+      </nav>
+
+      <div>
+          <p id="nombre2"></p>
+          <p id="apellido2"></p>
+          <p id="usuario2"></p>
+          <p id="contraseña2"></p>
+          Recuerde su usuario y contraseña para loguearse, en instantes será redirigido a la página de Inicio
+          </div>
+
+          <script type="text/javascript">
+            //Redireccionamiento tras 5 segundos
+            setTimeout( function() { window.location.href = "index.html"; }, 5000 );
+         </script>   
+    </body>
+    
+    </html>
